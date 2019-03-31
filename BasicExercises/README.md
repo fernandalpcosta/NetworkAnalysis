@@ -1,4 +1,5 @@
-#Learning objectives
+##Learning objectives
+
 In these exercises, we will use the **STRING**, **STITCH**, and **DISEASES** databases through their respective web interfaces. The exercises will teach you how to:
 
 * retrieve a STRING network for a protein of interest
