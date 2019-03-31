@@ -15,3 +15,6 @@ In these exercises, we will use the stringApp for Cytoscape to retrieve molecula
 * merge and compare networks
 * select proteins by attributes
 * identify functional modules through network clustering
+
+## Material
+Material adapted from [jensenlab](https://jensenlab.org/training/stringapp/#) and [STRING and Cytoscape Workshop from X-Meeting 2018](https://www.x-meeting.com/events/string-cytoscape-workshop).
