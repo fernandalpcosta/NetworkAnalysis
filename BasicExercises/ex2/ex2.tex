@@ -1,0 +1,33 @@
+\documentclass[a4paper]{article}
+
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+\geometry{a4paper,left=15mm,right=15mm,top=20mm,bottom=20mm}
+\pagestyle{fancy}
+\lhead{Fernanda Costa}
+\chead{Network analysis and visualization with Cytoscape and STRING}
+\rhead{\today}
+\cfoot{\thepage}
+
+\setlength{\headheight}{23pt}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.0in}
+
+\begin{document}
+
+\section*{Exercise \#2}
+
+\vspace{0,5cm}
+
+\subsection*{2.1 Chemical compound query}
+To retrieve for a chemical compound, go to \url{http://stitch-db.org/}, type \textit{aspirin} in the \textbf{Item Name} field, type \textit{Homo sapiens} in \textbf{Organism}, and click the \textbf{SEARCH} button. You should now see a network of proteins associated with aspirin, including \textbf{PTGS1} and \textbf{PTGS2}, which are the direct targets of aspirin.
+\vspace{0,5cm}
+
+\subsection*{2.2 Binding assay data}
+
+Click the interaction between \textbf{aspirin} and \textbf{PTGS1} and then the \textbf{Show} button next to Experimental/Biochemical Data in the popup. The evidence viewer now shows all the available binding assay data for this interaction, including the binding affinities (\textbf{IC50 values}).
+
+\end{document}

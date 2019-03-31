@@ -1,0 +1,48 @@
+\documentclass[a4paper]{article}
+
+\usepackage{xltxtra}
+\usepackage{polyglossia}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+\geometry{a4paper,left=15mm,right=15mm,top=20mm,bottom=20mm}
+\pagestyle{fancy}
+\lhead{Fernanda Costa}
+\chead{Network analysis and visualization with Cytoscape and STRING}
+\rhead{\today}
+\cfoot{\thepage}
+
+\setlength{\headheight}{23pt}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.0in}
+
+\begin{document}
+
+\section*{Exercise \#4}
+
+\vspace{0,5cm}
+
+\subsection*{4.1 Complete virus query}
+
+Go to \url{http://viruses.string-db.org}, and select \textbf{Complete Virus} from the menu on the left. In the \textbf{Virus dropdown}, enter “\textbf{\textit{Measles}}”, and the \textbf{Host dropdown} can be left as auto-detect to detect the host with the most interactions, in this case, \textit{Homo sapiens}. Click \textbf{Search} to retrieve the network.
+
+\vspace{0,5cm}
+
+\subsection*{4.2 Inspect virus evidence}
+Click on the \textbf{edge} connecting the measles virus \textbf{P/V protein} and the human \textbf{STAT2 protein}.
+
+\begin{itemize}
+  \item \textit{What types of evidence support an interaction between these proteins? List two publications that the evidence comes from.}
+\end{itemize}
+
+\vspace{0,5cm}
+
+\subsection*{4.3 Single virus protein query}
+Click on the logo at the top of the page to go back to the main search screen. Select \textbf{Virus by Single Protein} from the left, and then enter “\texbf{P}” as the \textbf{Virus Protein Name} and “\textbf{bacteriophage lambda}” as the \textbf{Virus}. The \textbf{Host} can again be left to auto-detect \textit{E. coli}. Protein P is responsible for the bi-directional replication of phage DNA.
+
+\begin{itemize}
+  \item \textit{Which host proteins does P interact with?}
+  \item \textit{What types of evidence supports these interactions?}
+\end{itemize}
+
+\end{document}
